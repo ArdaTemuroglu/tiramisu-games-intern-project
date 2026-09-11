@@ -1,4 +1,4 @@
-# Ghost Lap Racing
+# Tiramisu Games Intern Project
 
 A Unity/C# arcade racing project focused on vehicle physics, race systems, ghost replays, progression, and gameplay architecture.
 
@@ -6,7 +6,7 @@ This repository is a code-focused portfolio snapshot intended for technical revi
 
 ## Overview
 
-Ghost Lap Racing combines selectable vehicles with Time Trial and Drift Challenge modes, ordered checkpoints and laps, drift combos, race rewards, persistent upgrades, and recorded ghost laps. The repository is structured to make the implementation and system boundaries easy to explore without presenting third-party art as original work.
+Tiramisu Games Intern Project combines selectable vehicles with Time Trial and Drift Challenge modes, ordered checkpoints and laps, drift combos, race rewards, persistent upgrades, and recorded ghost laps. The repository is structured to make the implementation and system boundaries easy to explore without presenting third-party art as original work.
 
 ## Features
 
@@ -103,7 +103,7 @@ This is intentionally a code-focused repository, not a clone-and-play distributi
 
 ## Development Context
 
-Developed as part of a volunteer game development internship. This repository is a personal technical presentation and does not imply endorsement by or ownership transfer from the host company.
+This project was developed during my volunteer game development internship at Tiramisu Games. This repository is a personal technical presentation and does not imply endorsement by or ownership transfer from the company.
 
 ## My Contributions
 
