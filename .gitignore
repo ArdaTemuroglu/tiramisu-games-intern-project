@@ -1,0 +1,73 @@
+# Unity-generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Cc]aptures/
+/ExportedObj/
+
+# IDE-generated files
+/.vs/
+/.idea/
+/.vscode/
+/.fleet/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+*.pdb
+*.mdb
+
+# Build tool caches
+/.gradle/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Crash and temporary files
+*.tmp
+*.log
+*.stackdump
+sysinfo.txt
+
+# Local secrets and signing material
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+
+# Unity Asset Store source packages (restore locally; do not commit)
+/Assets/ARCADE - FREE Racing Car/
+/Assets/ARCADE - FREE Racing Car.meta
+/Assets/ithappy/Cartoon_City_Free/
+/Assets/ithappy/Cartoon_City_Free.meta
+/Assets/ithappy.meta
+
+# Known ARCADE package assets previously relocated outside the vendor folder
+/Assets/Materials/AFRC_Emission.mat
+/Assets/Materials/AFRC_Emission.mat.meta
+/Assets/Materials/AFRC_Env_Mat.mat
+/Assets/Materials/AFRC_Env_Mat.mat.meta
+/Assets/Materials/AFRC_Mat_Col1.mat
+/Assets/Materials/AFRC_Mat_Col1.mat.meta
+/Assets/Materials/AFRC_Mat_Col4.mat
+/Assets/Materials/AFRC_Mat_Col4.mat.meta
+/Assets/Meshes/ARCADE - FREE Racing Car.fbx
+/Assets/Meshes/ARCADE - FREE Racing Car.fbx.meta

@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4f8161d8a53ad8478bb9dd55e588d07, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier: Assembly-CSharp::ArcadeRacing.CarConfig
+  mass: 1350
+  centerOfMass: {x: 0, y: -0.42, z: 0.08}
+  driveLayout: 2
+  acceleration: 1
+  maxSpeedKmh: 220
+  reverseMaxSpeedKmh: 45
+  motorTorque: 3000
+  reverseTorque: 1400
+  brakeTorque: 4200
+  handbrakeTorque: 4800
+  engineBrakingTorque: 90
+  throttleRiseRate: 3.5
+  throttleFallRate: 6
+  brakeResponse: 10
+  speedLimiterRangeKmh: 10
+  engineTorqueCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.18
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.5
+      value: 0.9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.78
+      value: 0.62
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.95
+      value: 0.25
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.06
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  handling: 1
+  maxSteerAngle: 30
+  highSpeedSteerAngle: 3.5
+  fullSteerSpeedKmh: 20
+  minimumSteerSpeedKmh: 180
+  steeringBySpeedCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.1875
+      value: 0.58
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.375
+      value: 0.34
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.625
+      value: 0.125
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.8125
+      value: 0.05
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  steeringInputRiseRate: 2.6
+  steeringInputReturnRate: 4.8
+  steeringResponse: 72
+  steeringReturnResponse: 115
+  steeringDeadZone: 0.04
+  ackermannStrength: 0.82
+  stabilityAssist: 1.15
+  maximumLateralAssist: 7
+  yawAssist: 0.35
+  maximumYawAssistAcceleration: 0.7
+  lowSpeedMaximumYawRate: 1.3
+  highSpeedMaximumYawRate: 0.55
+  excessiveYawDamping: 4
+  frontGrip: 1.25
+  rearGrip: 1.3
+  driftFactor: 0.58
+  tractionControlStrength: 0.35
+  tractionSlipThreshold: 0.6
+  absStrength: 0.65
+  absSlipThreshold: 0.55
+  frontAntiRoll: 6200
+  rearAntiRoll: 5600
+  downforce: 2.5
+  aerodynamicDrag: 0.42
+  rollingResistance: 20
+  suspensionDistance: 0.22
+  suspensionSpring: 36000
+  suspensionDamper: 4800
+  suspensionTargetPosition: 0.5
+  wheelMass: 24
+  wheelDampingRate: 0.25
+  forceAppPointDistance: 0.12
+  nitroCapacity: 5
+  nitroDrainPerSecond: 1
+  nitroRechargePerSecond: 0.12
+  nitroMinimumSpeedKmh: 30
+  nitroRampUpRate: 1.6
+  nitroRampDownRate: 5
+  nitroForce: 2800
+  nitroMaxSpeedBonusKmh: 25
+  nitroForceBySpeed:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.25
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.25
+      value: 0.55
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.65
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.65
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
